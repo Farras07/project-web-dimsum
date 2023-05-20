@@ -1,0 +1,85 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+    height: 88vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffff 50%, #EA984D 50%) ;
+}
+.h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+.contentLeft{
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+.tagline{
+    width: 80%;
+    margin-bottom: 3rem;
+}
+.leftSide{
+    width: 50%;
+    height: 100%;
+}
+.rightSide{
+    width: 50%;
+}
+.rightSide p{
+    font-size: 1.5rem;
+}
+.shopButton{
+    width: fit-content;
+    padding: .5rem 6rem;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+}
+.shopButton h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+.shopButton:hover{
+    background-color: #cdcdcd;
+}
+.rightContent .new{
+    margin: 7rem 4rem 4rem 3rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+}
+.image{
+    position: absolute;
+    z-index: 999;
+    top: 5rem;
+}
+.desc{
+    margin-top: 18.6rem;
+    margin-left: 10rem;
+    height: 10rem;
+    width: 50%;
+}
+.desc h3{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.price{
+    width: 100%;
+}
+.desc span{
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+}

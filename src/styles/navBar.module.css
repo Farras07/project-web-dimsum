@@ -1,0 +1,50 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.navContainer{
+    padding: 0 2rem;
+    height: 12vh;
+    width: 100%;
+    z-index: 99999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #ffff;
+}
+.logoSection{
+    width: 9%;
+}
+.logoLeft{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.logoTop{
+    font-family: 'Montserrat', sans-serif;
+}
+.logoBottom{
+    font-family: 'Playfair Display', serif;
+}
+.bottom{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.listMenuSection{
+    width: 50%;
+}
+.listMenuCon{
+    padding-top: 1.5rem;
+    width: 100%;
+}
+.listMenuCon li{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    padding: .4rem;
+    border-radius: 8px;
+}
+.listMenuCon li:hover{
+    background-color: #ebebeb;
+}

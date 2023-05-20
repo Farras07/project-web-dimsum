@@ -1,0 +1,22 @@
+.productsContainer {
+    height: 45vh;
+}
+.h2{
+    font-weight: bolder;
+    margin-top: 1.5rem;
+    margin-left:12rem;
+}
+.h3{
+    font-weight: normal;
+}
+.productItem{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.productDesc{
+    margin-top: -3.5rem;
+    width: 100%;
+}
+.price{
+    font-weight: bolder;
+}
